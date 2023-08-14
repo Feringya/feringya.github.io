@@ -1,0 +1,74 @@
+.carrusel-images{
+    width:100%;
+    height:500px;
+    object-fit:cover
+}
+.titulo{
+    background-color:rgb(189, 63, 172);
+}
+body{
+    background-color:#80e3f5;
+}
+.container-pink{
+    background-color:#c074bb;
+    display: flex;
+    flex-direction:row
+}
+.inicio{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+table, td, th{
+    border: 3px solid black;
+    border-collapse: collapse;
+
+}
+table{
+    width:70%;
+margin: 20px;
+}
+.logodes{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.logonom{
+    display:flex;
+    flex-direction:column;
+    margin-top: 10px;
+margin-left: 25px;
+}
+.redes{
+    width: 200px;;
+    height: 35px;
+    object-fit: cover;
+}
+.destinosimages{
+    width:100%;
+    height:500px;
+    object-fit:unset;
+    margin: 30px;
+}
+footer{
+    background-color:lightsteelblue;
+}
+.nosub{
+    text-decoration: none;
+}
+.imgdes{
+    width: 300px;
+    height: 200px;
+    object-fit:inherit;
+}
+.actividades{
+    display: flex;
+    flex-direction: row;
+}
